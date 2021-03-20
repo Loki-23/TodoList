@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  padding: 0 16px;
+  background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+}
+
+header {
+  background-color: #1e6666;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #b4bc3b;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  text-align:center;
+}
+
+footer {
+  
+  text-align: center;
+  height: 2.5rem;
+  
+  margin: 200px 0px 0px 0px ;
+  
+}
+
+footer p {
+  position: relative;
+  margin:auto;
+  color: rgb(218, 138, 20);
+}
+
+form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  margin: 20px auto 10px auto;
+  background: #fff;
+  padding: 7px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form .container1{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+form .box1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 35px 20px;
+}
+form .box2{
+  margin: 35px 20px;
+}
+
+
+form .container2{
+  display: flex;
+  justify-content: center;
+}
+ form input{
+  width: 150%;
+  border: none;
+  border-bottom: 2px solid rgb(157 47 20);
+  background-color: #cccccc54;
+  border-radius: 10px;
+  padding: 6px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+  margin:10px 0px;
+ }
+form textarea {
+  width: 120%;
+  border: none;
+  border: 2px solid rgb(137 61 61);
+  background-color: #cccccc54;
+  border-radius: 10px;
+  padding: 6px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+  margin:10px 0px;
+}
+form button {
+ 
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+} 
+
+table{
+  background: #fff;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 15px;
+  width: 900px;
+  margin: 30px auto 0px auto;
+}
+.contentTable{
+  margin: 10px auto 10px auto;
+}
+table tr:nth-child(even) {
+  background-color: #eee;
+}
+table tr:nth-child(odd) {
+  background-color: #fff;
+}
+table th {
+  color: white;
+  background-color: rgb(109, 108, 108);
+  padding: 15px;
+}
+
+table td{
+  text-align: center;
+  padding: 4px;
+  background-color: #cec3c394;
+}
+
+.work {
+  width:340px;
+}
+.work p{
+  text-align: start;
+}
+.work button{
+  position: relative;
+  float: right;
+  color: #f0bd33;
+  border: none;
+  width: 67px;
+  height: 22px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn{
+  
+  color: #f5ba13;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+.width{
+   width:187px;
+}
+
+.content{
+  margin-bottom: 20px;
+}
